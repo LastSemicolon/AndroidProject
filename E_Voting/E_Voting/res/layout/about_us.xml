@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/img7" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="18dp"
+        android:layout_marginRight="18dp"
+        android:text="   * E-Voting application runs on Android platform.\n   * Go to Vote option and select Proceed to vote option if your number is registered.
+    * Or select Login as a camp Administrator if you  are valid camp volunteer.\n   * It will redirect you to scanning screen.\n   * Scan the QR code on Aadhaar card.
+    * OTP will be sent on your registered phone number.\n* Enter the OTP. \n* Select the candidate whom you desire to vote.
+    * Confirm the vote.\n* For knowing the result, enter your zone name and get the result\n* This application replaces the conventional voting system.
+    * Vote from anywhere to the candidate of your zone." />
+
+    <Button
+        android:id="@+id/buttonaboutus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="33dp"
+        android:text="Back" />
+
+</RelativeLayout>

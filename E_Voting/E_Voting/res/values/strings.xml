@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">E_VotingTechnothon</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+	<string name="country_prompt">Choose a zone</string>
+
+
+<string-array name="country_arrays">
+
+<item>North Amravati</item>
+
+<item>Agra</item>
+
+<item>West Nagpur</item>
+
+<item>Badnera</item>
+
+<item>Nagpur Central </item>
+
+<item>Warora</item>
+
+<item>West Gaziyabads</item>
+
+<item>Guna</item>
+
+</string-array>
+</resources>
